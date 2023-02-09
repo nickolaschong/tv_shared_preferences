@@ -7,7 +7,7 @@
       },
       {
         "player": "Native",
-        "stream": "DASH_TV_SegTemplate"
+        "stream": "DASH_TV"
       }
     ],
     "vod": [
