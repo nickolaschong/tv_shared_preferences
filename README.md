@@ -3,6 +3,13 @@
 1. Edit on your json file in shared_pref
 2. Make changes and push
 
-# Navigate to 
+# Navigate to
+
 1. https://nickolaschong.github.io/tv_shared_preferences/shared_pref/mediacorp.json
 2. https://nickolaschong.github.io/tv_shared_preferences/shared_pref/logituit.json
+
+# Alternate way (raw.githubusercontent.com)
+
+For example branch `logituit`. We can point directly to the branch.
+
+1. https://raw.githubusercontent.com/nickolaschong/tv_shared_preferences/logituit/shared_pref.json
