@@ -1,0 +1,46 @@
+{
+  "webos": {
+    "live": [
+      {
+        "player": "Shaka",
+        "stream": "DASH_TV"
+      },
+      {
+        "player": "Native",
+        "stream": "DASH_TV_SegTemplate"
+      }
+    ],
+    "vod": [
+      {
+        "player": "Shaka",
+        "stream": "DASH_TV"
+      },
+      {
+        "player": "Native",
+        "stream": "DASH_TV_SegTemplate"
+      }
+    ]
+  },
+  "tizen": {
+    "live": [
+      {
+        "player": "Shaka",
+        "stream": "DASH_TV"
+      },
+      {
+        "player": "Native",
+        "stream": "DASH_TV_SegTemplate"
+      }
+    ],
+    "vod": [
+      {
+        "player": "Shaka",
+        "stream": "DASH_TV"
+      },
+      {
+        "player": "Native",
+        "stream": "DASH_TV_SegTemplate"
+      }
+    ]
+  }
+}
