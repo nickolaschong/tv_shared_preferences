@@ -1,45 +1,45 @@
 {
-  "webos": {
+  "tv_lg": {
     "live": [
       {
-        "player": "Shaka",
+        "player": "shaka",
         "stream": "DASH_TV"
       },
       {
-        "player": "Native",
-        "stream": "DASH_TV_SegTemplate"
+        "player": "native",
+        "stream": "DASH_TV"
       }
     ],
     "vod": [
       {
-        "player": "Shaka",
+        "player": "shaka",
         "stream": "DASH_TV"
       },
       {
-        "player": "Native",
+        "player": "native",
         "stream": "DASH_TV_SegTemplate"
       }
     ]
   },
-  "tizen": {
+  "tv_samsung": {
     "live": [
       {
-        "player": "Shaka",
+        "player": "native",
         "stream": "DASH_TV"
       },
       {
-        "player": "Native",
-        "stream": "DASH_TV_SegTemplate"
+        "player": "shaka",
+        "stream": "DASH_TV"
       }
     ],
     "vod": [
       {
-        "player": "Shaka",
-        "stream": "DASH_TV"
+        "player": "shaka",
+        "stream": "DASH_TV_SegTemplate"
       },
       {
-        "player": "Native",
-        "stream": "DASH_TV_SegTemplate"
+        "player": "native",
+        "stream": "DASH_TV"
       }
     ]
   }
