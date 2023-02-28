@@ -24,12 +24,12 @@
   "tv_samsung": {
     "live": [
       {
-        "player": "shaka",
-        "stream": "DASH_TV_SegTemplate"
-      },
-      {
         "player": "native",
         "stream": "DASH_TV"
+      },
+      {
+        "player": "shaka",
+        "stream": "DASH_TV_SegTemplate"
       }
     ],
     "vod": [
@@ -44,4 +44,3 @@
     ]
   }
 }
-
