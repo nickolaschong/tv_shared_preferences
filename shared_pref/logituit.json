@@ -1,46 +1,102 @@
 {
   "tv_lg": {
-    "live": [
-      {
-        "player": "shaka",
-        "stream": "DASH_TV"
-      },
-      {
-        "player": "native",
-        "stream": "DASH_TV"
-      }
-    ],
-    "vod": [
-      {
-        "player": "shaka",
-        "stream": "DASH_TV"
-      },
-      {
-        "player": "native",
-        "stream": "DASH_TV_SegTemplate"
-      }
-    ]
+    "encrypted": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV_SegTemplate",
+          "drmScheme": "auto"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "SS_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "native",
+          "stream": "SS_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ]
+    },
+    "clear": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV_SegTemplate"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "SS_TV"
+        },
+        {
+          "player": "native",
+          "stream": "SS_TV"
+        }
+      ]
+    }
   },
   "tv_samsung": {
-    "live": [
-      {
-        "player": "native",
-        "stream": "DASH_TV"
-      },
-      {
-        "player": "shaka",
-        "stream": "DASH_TV"
-      }
-    ],
-    "vod": [
-      {
-        "player": "shaka",
-        "stream": "DASH_TV_SegTemplate"
-      },
-      {
-        "player": "native",
-        "stream": "DASH_TV"
-      }
-    ]
+    "encrypted": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ]
+    },
+    "clear": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "DASH_TV"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ]
+    }
   }
 }
