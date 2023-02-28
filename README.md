@@ -10,6 +10,7 @@
 
 # Alternate way (raw.githubusercontent.com)
 
-For example branch `logituit`. We can point directly to the branch.
+For example branch is `mediacorp` or `logituit`. We can point directly to the branch.
 
+1. https://raw.githubusercontent.com/nickolaschong/tv_shared_preferences/mediacorp/shared_pref.json
 1. https://raw.githubusercontent.com/nickolaschong/tv_shared_preferences/logituit/shared_pref.json
