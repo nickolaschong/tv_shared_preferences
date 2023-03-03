@@ -1,4 +1,5 @@
 {
+  "epgPageSize": 60,
   "tv_lg": {
     "encrypted": {
       "live": [
