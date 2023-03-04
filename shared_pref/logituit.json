@@ -5,8 +5,8 @@
       "live": [
         {
           "player": "native",
-          "stream": "DASH_TV_SegTemplate",
-          "drmScheme": "auto"
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
         },
         {
           "player": "shaka",
