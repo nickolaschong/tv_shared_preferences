@@ -6,7 +6,7 @@
         {
           "player": "native",
           "stream": "DASH_TV",
-          "drmScheme": "com.microsoft.playready"
+          "drmScheme": "com.widevine.alpha"
         },
         {
           "player": "shaka",
