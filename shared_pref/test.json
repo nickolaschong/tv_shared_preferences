@@ -6,12 +6,12 @@
         {
           "player": "native",
           "stream": "DASH_TV",
-          "drmScheme": "com.microsoft.playready"
+          "drmScheme": "com.widevine.alpha"
         },
         {
           "player": "native",
           "stream": "DASH_TV",
-          "drmScheme": "com.widevine.alpha"
+          "drmScheme": "com.microsoft.playready"
         }
       ],
       "vod": [
