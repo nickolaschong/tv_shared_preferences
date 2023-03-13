@@ -62,11 +62,6 @@
           "player": "native",
           "stream": "DASH_TV",
           "drmScheme": "com.widevine.alpha"
-        },
-        {
-          "player": "shaka",
-          "stream": "DASH_TV",
-          "drmScheme": "com.microsoft.playready"
         }
       ],
       "vod": [
