@@ -1,0 +1,346 @@
+{
+  "epgPageSize": 60,
+  "tv_lg": {
+    "encrypted": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "SS_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "native",
+          "stream": "SS_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ]
+    },
+    "clear": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV_SegTemplate"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "SS_TV"
+        },
+        {
+          "player": "native",
+          "stream": "SS_TV"
+        }
+      ]
+    },
+    "startover": {
+      
+    }
+  },
+  "tv_samsung": {
+    "encrypted": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.widevine.alpha"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ]
+    },
+    "clear": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "DASH_TV"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ]
+    },
+    "startover": {
+      "disabled": [
+        "UJS9900",
+        "UJS9800",
+        "UJS9500",
+        "UJS9000",
+        "UJS9100",
+        "UJU5900",
+        "UJU5910",
+        "UJU5920",
+        "UJU8000", 
+        "UJU7800",
+        "UJU7500", 
+        "UJU7000", 
+        "UJS8500", 
+        "UJS8000",
+        "UJU6900", 
+        "UJU6410", 
+        "UJU6400", 
+        "UJU6300", 
+        "UJS6900",
+        "UJU6390", 
+        "UJU6000",
+        "UJU6100", 
+        "US9A", 
+        "UJU6800", 
+        "UJU6740", 
+        "UJU6700", 
+        "UJU6600", 
+        "UJU6510", 
+        "UJU6500", 
+        "UJS8600", 
+        "UJS6700",
+        "UJU7090",
+        "UJ6400",
+        "UJS6000", 
+        "UJ6330", 
+        "UJ6300", 
+        "UJ6240", 
+        "UJ6200", 
+        "UJ5520", 
+        "UJ5510", 
+        "UJ5500", 
+        "UJ5300", 
+        "TE390S",
+        "UK5200", 
+        "UJ6203", 
+        "UJ5373", 
+        "UJ5370", 
+        "UJ5303", 
+        "UJ5300",
+        "UJ5290",  
+        "UJ5278", 
+        "UJ5270", 
+        "UJ5248", 
+        "UJ5205", 
+        "UJ5202", 
+        "UJ5201", 
+        "UJ5200", 
+        "UJ5190",
+        "UJ4700",
+        "UJ4600", 
+        "UJ4570", 
+        "UJ4500", 
+        "UJ4303", 
+        "UJ4300",
+        "UJ4290",
+        "UJ4200", 
+        "UH4501",
+        "US9WB", 
+        "US9WAF", 
+        "US9CAF", 
+        "US9VF", 
+        "US9BF",
+        "US9B", 
+        "UHU9800", 
+        "UHU9300B", 
+        "UHU9300", 
+        "UHU9000", 
+        "UHU8500CV", 
+        "85S9GLF", 
+        "UHU8800", 
+        "UHU8700", 
+        "UHU8550", 
+        "UHU8500", 
+        "UHU8200", 
+        "UHU7500",
+        "UH8800", 
+        "UH8000",
+        "UH7100", 
+        "UH7000", 
+        "UH6900", 
+        "UH6850", 
+        "UH6800", 
+        "UH6700", 
+        "UH6600", 
+        "UH6500", 
+        "UH6400",
+        "UH6410",
+        "UH6350", 
+        "UH6300", 
+        "UH6200",
+        "UH6088",
+        "UJ5800", 
+        "UH5600",
+        "UH5570", 
+        "UH5510",
+        "UH5500", 
+        "UH4570", 
+        "UH4500",
+        "UH7000", 
+        "UH6700", 
+        "UH6600", 
+        "UH6510", 
+        "UH6500",
+        "UHU8800", 
+        "UHU8700", 
+        "UHU8550", 
+        "UHU8500", 
+        "UHU8200", 
+        "UHU7800", 
+        "UHU7500", 
+        "UHU7250", 
+        "UHU7200", 
+        "UHU7100", 
+        "UHU7000", 
+        "UHU6950", 
+        "UHU6900", 
+        "UHU6830", 
+        "UHU6000", 
+        "UHU5900",
+        "UH6203", 
+        "UH6103", 
+        "UH5303", 
+        "UH5203", 
+        "UH5103", 
+        "UH4500", 
+        "UH4303", 
+        "UH4250", 
+        "UH4203", 
+        "TD390S",
+        "UF8500", 
+        "UF8200", 
+        "UF8000", 
+        "UF7500", 
+        "UF7450", 
+        "UF7400", 
+        "UF7000", 
+        "PF8500", 
+        "KS9C", 
+        "KF9500",
+        "US9", 
+        "UF9000",
+        "US9V",
+        "US9VCN",
+        "US9CN",
+        "UF7200", 
+        "UF7150", 
+        "UF7120", 
+        "UF7100", 
+        "UF7050", 
+        "UF6900", 
+        "UF6800", 
+        "UF6700", 
+        "UF6600", 
+        "UF6540", 
+        "UF6510", 
+        "UF6500", 
+        "UF6470", 
+        "UF6450", 
+        "UF6420", 
+        "UF6400", 
+        "UF6370", 
+        "UF6360", 
+        "UF6350", 
+        "UF6330", 
+        "UF6320", 
+        "UF6300", 
+        "UF6203", 
+        "UF6200", 
+        "UF5700", 
+        "UF5500", 
+        "UF5400", 
+        "UF5303", 
+        "UF5300", 
+        "PF5200",
+        "UF4500", 
+        "UF4300",
+        "PF5500",
+        "UES9500",
+        "UES9010", 
+        "UES9000", 
+        "UES8000", 
+        "UES7500", 
+        "UES7000", 
+        "PE8000",
+        "UEA6950",
+        "PE7000",
+        "UE7200", 
+        "UE7150", 
+        "UE7100",
+        "UE6900", 
+        "UE6820", 
+        "UE6800", 
+        "UE6760", 
+        "UE6710", 
+        "UE6700", 
+        "UE6600", 
+        "UE6580", 
+        "UE6540", 
+        "UE6530", 
+        "UE6500", 
+        "UE6400", 
+        "UE6330", 
+        "UE6320", 
+        "UE6300", 
+        "UE6200", 
+        "UE6100", 
+        "UE6150", 
+        "UE5800", 
+        "UE5700", 
+        "UE5600", 
+        "UE5500", 
+        "UE5450", 
+        "UE5400", 
+        "UE5330", 
+        "UE5300", 
+        "UE4530", 
+        "UE4500", 
+        "PE7000", 
+        "PE6500", 
+        "PE570", 
+        "PE550", 
+        "PE540",
+        "UF6200", 
+        "UF6088",
+        "TB750", 
+        "TB550"
+      ]
+    }
+  }
+}

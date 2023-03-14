@@ -3,10 +3,10 @@
   "tv_lg": {
     "encrypted": {
       "live": [
-           {
+        {
           "player": "native",
           "stream": "DASH_TV",
-          "drmScheme": "com.widevine.alpha"
+          "drmScheme": "com.microsoft.playready"
         },
         {
           "player": "native",
@@ -59,9 +59,9 @@
           "drmScheme": "com.microsoft.playready"
         },
         {
-          "player": "shaka",
+          "player": "native",
           "stream": "DASH_TV",
-          "drmScheme": "com.microsoft.playready"
+          "drmScheme": "com.widevine.alpha"
         }
       ],
       "vod": [
