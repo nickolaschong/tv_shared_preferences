@@ -15,3 +15,5 @@ For example branch is `mediacorp` or `logituit`. We can point directly to the br
 
 1. https://raw.githubusercontent.com/nickolaschong/tv_shared_preferences/mediacorp/shared_pref.json
 2. https://raw.githubusercontent.com/nickolaschong/tv_shared_preferences/logituit/shared_pref.json
+3. https://raw.githubusercontent.com/nickolaschong/tv_shared_preferences/main/shared_pref/kelvin.json
+
