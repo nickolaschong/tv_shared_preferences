@@ -1,0 +1,103 @@
+{
+  "epgPageSize": 60,
+  "tv_lg": {
+    "encrypted": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "SS_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "native",
+          "stream": "SS_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ]
+    },
+    "clear": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV_SegTemplate"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "SS_TV"
+        },
+        {
+          "player": "native",
+          "stream": "SS_TV"
+        }
+      ]
+    }
+  },
+  "tv_samsung": {
+    "encrypted": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.widevine.alpha"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV",
+          "drmScheme": "com.microsoft.playready"
+        }
+      ]
+    },
+    "clear": {
+      "live": [
+        {
+          "player": "native",
+          "stream": "DASH_TV"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ],
+      "vod": [
+        {
+          "player": "native",
+          "stream": "DASH_TV"
+        },
+        {
+          "player": "shaka",
+          "stream": "DASH_TV"
+        }
+      ]
+    }
+  }
+}
