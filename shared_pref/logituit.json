@@ -4,15 +4,15 @@
     "encrypted": {
       "live": [
         {
-          "player": "native",
-          "stream": "DASH_TV",
-          "drmScheme": "com.widevine.alpha"
+           "player": "native",
+            "stream": "DASH_TV",
+            "drmScheme": "com.microsoft.playready"
         },
         {
-          "player": "shaka",
-          "stream": "DASH_TV",
-          "drmScheme": "com.microsoft.playready"
-        }
+          "player": "native",
+          "stream": "DASH_T",
+          "drmScheme": "com.widevine.alpha"
+        },
       ],
       "vod": [
         {
